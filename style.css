@@ -1,0 +1,191 @@
+body {
+
+	 background-color: #F7F9FC;
+	 color: #575F7D;
+	 font-size: 18px;
+	 font-family: 'Lora', serif;
+	 font-weight: lighter;
+}
+
+
+h1, h2{
+	 font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color:#575F7D ;
+    font-size:32px;
+    font-weight: 900;
+    text-align: center;
+   
+ }
+
+ 
+
+h2 { 
+    color: #28df99;
+    font-size:20px;
+    font-weight: lighter;
+    font-weight: 500;
+
+}
+
+/*Custom design with class(99% of design)*/
+
+.container{
+   width: 700px;
+   margin: 40px auto;	
+}
+
+/*Custom design dor phore or tablette or PC*/
+
+@media(max-width: 760px){
+   .container{
+   	width: 600px;
+   }
+}
+
+@media(max-width: 500px){
+   .container{
+   	width: 400px;
+   }
+}
+
+
+#title-Designe {
+background: white;
+padding: 40px;
+margin: 20px auto;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+text-align: center;
+}
+
+
+
+.img-circle{
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#title-Designe p{
+margin-bottom: 40px;
+}
+
+#btn-blue{
+    background-color: #6B72E1;
+    color:white;
+    text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 15px 20px;
+
+}
+
+#btn-blue:hover{
+	background-color: black;
+	color:white;
+}
+
+#title2{
+	background: white;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+#title3{
+    background: white;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+#title4{
+    background: white;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+#title5{
+    background: white;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+#list-inline{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 0px;
+}
+
+#list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+#list-inline i{
+	font-size: 50px;
+	color: #6B72E1;
+}
+
+.fa-facebook-square{
+	color: red;
+}
+/*design adjustements using id(1% of design)*/
+
+#list-inline i:hover{
+	color: black;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
